@@ -1,0 +1,89 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - corsica > socket.io > debug:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > engine.io > debug:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-client > debug:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-parser > debug:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-adapter > debug:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:hawk:20160119':
+    - corsica-flickr-2 > flickrapi > request > hawk:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica-xkcd > request > hawk:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:http-signature:20150122':
+    - corsica-flickr-2 > flickrapi > request > http-signature:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica-xkcd > request > http-signature:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:mime:20170907':
+    - forever > winston > request > mime:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica-xkcd > request > form-data > mime:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica-xkcd > request > mime:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > express > send > mime:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > express > connect > send > mime:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica-flickr-2 > flickrapi > request > form-data > mime:
+        patched: '2019-06-07T04:14:11.706Z'
+    - forever > winston > request > form-data > mime:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica-flickr-2 > flickrapi > request > mime:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:minimatch:20160620':
+    - corsica-flickr-2 > flickrapi > glob > minimatch:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:ms:20170412':
+    - corsica > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > debug > ms:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-client > debug > ms:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-parser > debug > ms:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > socket.io-adapter > debug > ms:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica > socket.io > engine.io > debug > ms:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:negotiator:20160616':
+    - corsica > express > connect > negotiator:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:qs:20140806-1':
+    - corsica-xkcd > request > qs:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica-flickr-2 > flickrapi > request > qs:
+        patched: '2019-06-07T04:14:11.706Z'
+    - forever > winston > request > qs:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:request:20160119':
+    - corsica-flickr-2 > flickrapi > request:
+        patched: '2019-06-07T04:14:11.706Z'
+    - corsica-xkcd > request:
+        patched: '2019-06-07T04:14:11.706Z'
+    - forever > winston > request:
+        patched: '2019-06-07T04:14:11.706Z'
+  'npm:validator:20130705-1':
+    - corsica-rss > feedparser > resanitize > validator:
+        patched: '2019-06-07T04:14:11.706Z'
