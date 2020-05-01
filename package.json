@@ -5,7 +5,9 @@
   "repository": "https://github.com/mozilla/moz-corsica",
   "scripts": {
     "start": "node node_modules/corsica/index.js",
-    "test": "./script/cibuild"
+    "test": "./script/cibuild",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "corsica": "2.0.0",
@@ -20,6 +22,8 @@
     "corsica-tweet": "1.2.0",
     "corsica-fx-screenshot": "1.1.0",
     "forever": "0.10.11",
-    "winston": "0.7.2"
-  }
+    "winston": "0.7.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
